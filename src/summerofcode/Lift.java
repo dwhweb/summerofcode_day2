@@ -7,7 +7,7 @@ public class Lift {
         BufferedReader bufferedFileReader = null;
         int c;
         int floor = 0;
-        int highestfloor = 0;
+        int highestfloor = Integer.MIN_VALUE;
         
         try {
             bufferedFileReader = new BufferedReader(new FileReader(aFile));
